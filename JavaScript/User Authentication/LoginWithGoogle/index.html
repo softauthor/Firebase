@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Firebase User Authentication</title>
+
+  </head>
+  <body>
+    <h3>Firebase</h3>
+    <em>Username and Password Authentication</em>
+      <hr>
+
+    <p>
+      <p id="current-email" style="display:none"></p>
+      <button type="button" id="signout" style="display:none">Signout</button>
+    </p>
+
+    <div id="signup-form">
+      <h4>signup form</h4>
+      <input type="text" id="username" placeholder="enter your username"/><br/>
+      <input type="email" id="email" placeholder="enter your email"><br/>
+      <input type="password" id="password" placeholder="enter your password"/><br/>
+      <button type="button" name="button" id="signup">Signup</button>
+    </div>
+
+  
+    <div id="signin">
+    <h4>signin</h4>
+      <input type="email" id="signinEmail" placeholder="enter your email"><br/>
+      <input type="password" id="signinPassword" placeholder="enter your password"/><br/>
+      <button type="button" name="button" id="signin">Singin</button>
+    </div>
+    <hr/>
+
+
+  </body>
+  <script src="https://www.gstatic.com/firebasejs/3.6.5/firebase.js"></script>
+  <script src="app.js"></script>
+</html>
